@@ -35,5 +35,4 @@ class CachingController < ApplicationController
     return r
   end
 
-  add_method_tracer :sin, 'Custom/compute_sine'
 end
